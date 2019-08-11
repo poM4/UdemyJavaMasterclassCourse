@@ -82,6 +82,7 @@ break out of the loop once you find 5 numbers that met the above conditions.
 After breaking out of the loop print the sum of the numbers that met the above conditions.
 Note: Type all code in main method
 */
+/*
         int count=0;
         int sum=0;
         for(int i=1; i<1001; i++) {
@@ -96,6 +97,10 @@ Note: Type all code in main method
             }
         }
         System.out.println("The sum of numbers is " + sum);
+*/
+
+
+        System.out.println(SumOddRange.sumOdd(0,1));
 
     }
 }
