@@ -100,7 +100,7 @@ Note: Type all code in main method
 */
 
 
-        System.out.println(SumOddRange.sumOdd(0,1));
+        System.out.println(SumOddRange.sumOdd(100,1000));
 
     }
 }

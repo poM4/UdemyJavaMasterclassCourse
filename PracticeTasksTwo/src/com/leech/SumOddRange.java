@@ -41,20 +41,17 @@ NOTE: Do not add a  main method to solution code.
 
         int sum = 0;
 
-        if ((end < start) && ((start <= 0) && (end <= 0))) { //issue is here with the statement
+        if ((start <= 0) || (end <= 0) || (end < start)) {
             return -1;
         } else {
-/*            for (int i=start; i <= end; i++) {
-
+            for (int i=start; i <= end; i++) {
+//                System.out.println(i);
                 if(isOdd(i)) {
                     sum+=i;
-                } else {
-                    return -1;
                 }
-            }*/
+            }
         }
-
-        return sum;
+       return sum;
 
     }
 
