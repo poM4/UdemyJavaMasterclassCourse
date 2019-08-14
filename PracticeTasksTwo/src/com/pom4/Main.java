@@ -100,7 +100,14 @@ Note: Type all code in main method
 */
 
 
-        System.out.println(SumOddRange.sumOdd(100,1000));
+//        System.out.println(SumOddRange.sumOdd(100,1000));
+//        System.out.println(WhileDoWhileChallenge.isEvenNumber(-1));
+
+
+        WhileDoWhileChallenge.evenNumberFromRange(4,20);
+
+
+
 
     }
 }
