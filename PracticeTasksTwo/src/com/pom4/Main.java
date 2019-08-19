@@ -104,7 +104,9 @@ Note: Type all code in main method
 //        System.out.println(WhileDoWhileChallenge.isEvenNumber(-1));
 
 
-        WhileDoWhileChallenge.evenNumberFromRange(4,20);
+//        WhileDoWhileChallenge.evenNumberFromRange(4,20);
+
+        System.out.println(DigitSumChallenge.sumDigits(120));
 
 
 
