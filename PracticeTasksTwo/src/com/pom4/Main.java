@@ -104,7 +104,13 @@ Note: Type all code in main method
 
 
 //        WhileDoWhileChallenge.evenNumberFromRange(4,20);
+//        System.out.println(DigitSumChallenge.sumDigits(120));
 
-        System.out.println(DigitSumChallenge.sumDigits(120));
+
+        System.out.println(NumberPalindrome.isPalindrome(-112));
+
+
+
+
     }
 }
