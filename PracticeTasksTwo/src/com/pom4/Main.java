@@ -98,14 +98,13 @@ Note: Type all code in main method
         System.out.println("The sum of numbers is " + sum);
 */
 
-
 //        System.out.println(SumOddRange.sumOdd(100,1000));
 //        System.out.println(WhileDoWhileChallenge.isEvenNumber(-1));
 //        WhileDoWhileChallenge.evenNumberFromRange(4,20);
 //        System.out.println(DigitSumChallenge.sumDigits(120));
 //        System.out.println(NumberPalindrome.isPalindrome(-112));
-
-        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(10));
+//        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(10));
+        System.out.println(EvenDigitSum.getEvenDigitSum(-252));
 
 
     }
