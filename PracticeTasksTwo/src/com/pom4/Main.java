@@ -104,7 +104,7 @@ Note: Type all code in main method
 //        System.out.println(DigitSumChallenge.sumDigits(120));
 //        System.out.println(NumberPalindrome.isPalindrome(-112));
 //        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(10));
-        System.out.println(EvenDigitSum.getEvenDigitSum(-252));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(-252));
 
 
     }
