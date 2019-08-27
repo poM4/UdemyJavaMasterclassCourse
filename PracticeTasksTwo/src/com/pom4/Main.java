@@ -105,7 +105,7 @@ Note: Type all code in main method
 //        System.out.println(NumberPalindrome.isPalindrome(-112));
 //        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(10));
 //        System.out.println(EvenDigitSum.getEvenDigitSum(-252));
-
-
+//        System.out.println(SharedDigit.hasSharedDigit(3, 22));
+        System.out.println(LastDigitChecker.hasSameLastDigit(19,99,999));
     }
 }
