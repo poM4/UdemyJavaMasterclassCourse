@@ -3,8 +3,7 @@ package com.pom4;
 public class Main {
 
     public static void main(String[] args) {
-
-//        SwitchWithCharChallenge.charChecker('Q');
+        //        SwitchWithCharChallenge.charChecker('Q');
 //        DayOfTheWeekChallenge.printDayOfTheWeek(6);
 //        DayOfTheWeekChallengeWithIfElse.printDayOfTheWeek(-1);
 //        NumberInWord.printNumberInWord(10);
@@ -107,9 +106,5 @@ Note: Type all code in main method
 //        WhileDoWhileChallenge.evenNumberFromRange(4,20);
 
         System.out.println(DigitSumChallenge.sumDigits(120));
-
-
-
-
     }
 }
