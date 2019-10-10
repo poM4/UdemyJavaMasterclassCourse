@@ -52,22 +52,29 @@ public class Person {
 
 
     public String getFirstName() {
-        return firstName;
+        return this.firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return this.lastName;
     }
 
-    public void setFirstName() {
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public void setLastName() {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public void setAge() {
+    public void setAge(int age) {
+        if (age < 0 || age > 100) {
+            age = 0;
+        }
         this.age = age;
     }
 
@@ -87,7 +94,7 @@ public class Person {
             return lastName;
         }
 
-        return firstName + lastName;
+        return firstName + " " + lastName;
     }
 
 }

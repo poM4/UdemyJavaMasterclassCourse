@@ -18,7 +18,8 @@ public class Main {
         Person person = new Person();
         person.setFirstName("");   // firstName is set to empty string
         person.setLastName("");    // lastName is set to empty string
-        person.setAge(10);
+        person.setAge(-5);
+        System.out.println(person.getAge());
         System.out.println("fullName= " + person.getFullName());
         System.out.println("teen= " + person.isTeen());
         person.setFirstName("John");    // firstName is set to John
