@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println(bankAccount.getBalance());
         bankAccount.increaseBalance(500.00);
-        System.out.println(bankAccount.withdrawalBalance(2000));
+        bankAccount.withdrawalBalance(2000);
         System.out.println(bankAccount.getBalance());
         bankAccount.withdrawalBalance(400);
         System.out.println(bankAccount.getBalance());

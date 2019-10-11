@@ -63,23 +63,24 @@ public class BankAccount {
     }
 
 
-    public double increaseBalance(double increaseAmount) {
-        double currentBalance = getBalance();
-        balance = currentBalance + increaseAmount;
-        return balance;
+    public void increaseBalance(double increaseAmount) {
+        this.balance += increaseAmount;
+        System.out.println("Deposit of " + increaseAmount + " made. New balance is " + this.balance);
     }
 
-    public double withdrawalBalance(double withdrawalAmount) {
-        double currentBalance = getBalance();
-        if (!insufficientBalanceCheck(currentBalance,withdrawalAmount)) {
-            return -1;
+    public void withdrawalBalance(double withdrawalAmount) {
+
+        if (!insufficientBalanceCheck(withdrawalAmount)) {
+            System.out.println("Only " + this.balance + " is available. Withdrawal not processed");;
+        } else {
+            this.balance -= withdrawalAmount;
+            System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balace = " + this.balance);
         }
-        balance = currentBalance - withdrawalAmount;
-        return balance;
+
     }
 
-    private boolean insufficientBalanceCheck(double currentBalance, double withdrawalAmount) {
-        if (currentBalance-withdrawalAmount<0) {
+    private boolean insufficientBalanceCheck(double withdrawalAmount) {
+        if (this.balance-withdrawalAmount<0) {
             return false;
         }
         return true;
