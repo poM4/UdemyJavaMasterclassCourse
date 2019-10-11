@@ -21,6 +21,22 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount(){
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this("999999", 10.55, customerName, email, phoneNumber);
+
+    }
 
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;

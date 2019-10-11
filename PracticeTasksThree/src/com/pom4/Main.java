@@ -30,21 +30,24 @@ public class Main {
         System.out.println("fullName= " + person.getFullName());
 */
 
+/*
+        BankAccount iggyAccount = new BankAccount();
+        iggyAccount.setAccountNumber("490375");
+        iggyAccount.setBalance(1000.00);
+        iggyAccount.setCustomerName("Iggy Romero");
+        iggyAccount.setEmail("iggy.romero@test.com");
+        iggyAccount.setPhoneNumber("+380979088822");
 
-        BankAccount bankAccount = new BankAccount();
-        bankAccount.setAccountNumber("490375");
-        bankAccount.setBalance(1000.00);
-        bankAccount.setCustomerName("Iggy Romero");
-        bankAccount.setEmail("iggy.romero@test.com");
-        bankAccount.setPhoneNumber("+380979088822");
+        System.out.println(iggyAccount.getBalance());
+        iggyAccount.increaseBalance(500.00);
+        iggyAccount.withdrawalBalance(2000);
+        System.out.println(iggyAccount.getBalance());
+        iggyAccount.withdrawalBalance(400);
+        System.out.println(iggyAccount.getBalance());
+*/
 
-        System.out.println(bankAccount.getBalance());
-        bankAccount.increaseBalance(500.00);
-        bankAccount.withdrawalBalance(2000);
-        System.out.println(bankAccount.getBalance());
-        bankAccount.withdrawalBalance(400);
-        System.out.println(bankAccount.getBalance());
-
+    BankAccount annyaAccount = new BankAccount("12345", 0.00, "Hanna Dovgolap", "lzmnk@test.com", "+380971314444");
+    BankAccount newAccount = new BankAccount();
 
     }
 }
