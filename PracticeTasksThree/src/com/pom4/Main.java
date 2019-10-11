@@ -14,7 +14,7 @@ public class Main {
         System.out.println("multiply= " + calculator.getMultiplicationResult());
         System.out.println("divide= " + calculator.getDivisionResult());
 */
-
+/*
         Person person = new Person();
         person.setFirstName("");   // firstName is set to empty string
         person.setLastName("");    // lastName is set to empty string
@@ -28,5 +28,23 @@ public class Main {
         System.out.println("teen= " + person.isTeen());
         person.setLastName("Smith");    // lastName is set to Smith
         System.out.println("fullName= " + person.getFullName());
+*/
+
+
+        BankAccount bankAccount = new BankAccount();
+        bankAccount.setAccountNumber("490375");
+        bankAccount.setBalance(1000.00);
+        bankAccount.setCustomerName("Iggy Romero");
+        bankAccount.setEmail("iggy.romero@test.com");
+        bankAccount.setPhoneNumber("+380979088822");
+
+        System.out.println(bankAccount.getBalance());
+        bankAccount.increaseBalance(500.00);
+        System.out.println(bankAccount.withdrawalBalance(2000));
+        System.out.println(bankAccount.getBalance());
+        bankAccount.withdrawalBalance(400);
+        System.out.println(bankAccount.getBalance());
+
+
     }
 }
