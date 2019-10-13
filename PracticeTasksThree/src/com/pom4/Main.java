@@ -45,9 +45,19 @@ public class Main {
         iggyAccount.withdrawalBalance(400);
         System.out.println(iggyAccount.getBalance());
 */
+/*
 
-    BankAccount annyaAccount = new BankAccount("12345", 0.00, "Hanna Dovgolap", "lzmnk@test.com", "+380971314444");
-    BankAccount newAccount = new BankAccount();
+        BankAccount annyaAccount = new BankAccount("12345", 0.00, "Hanna Dovgolap", "lzmnk@test.com", "+380971314444");
+        BankAccount newAccount = new BankAccount();
+*/
+        VipCustomer person1 = new VipCustomer();
+        System.out.println(person1.getName());
+
+        VipCustomer person2 = new VipCustomer("Hanna", "lzmnk@test.com");
+        System.out.println(person2.getName());
+
+        VipCustomer person3 = new VipCustomer("Igor", 30000, "iggy@test.com");
+        System.out.println(person3.getName());
 
     }
 }

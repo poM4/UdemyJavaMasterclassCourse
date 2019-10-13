@@ -30,4 +30,16 @@ public class VipCustomer {
     public VipCustomer(String name, String emailAddress) {
         this(name, 20000, emailAddress);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
 }
