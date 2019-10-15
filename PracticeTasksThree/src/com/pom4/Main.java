@@ -50,6 +50,7 @@ public class Main {
         BankAccount annyaAccount = new BankAccount("12345", 0.00, "Hanna Dovgolap", "lzmnk@test.com", "+380971314444");
         BankAccount newAccount = new BankAccount();
 */
+/*
         VipCustomer person1 = new VipCustomer();
         System.out.println(person1.getName());
 
@@ -58,6 +59,15 @@ public class Main {
 
         VipCustomer person3 = new VipCustomer("Igor", 30000, "iggy@test.com");
         System.out.println(person3.getName());
+*/
+
+        Wall wall = new Wall(5,4);
+        System.out.println("area= " + wall.getArea());
+
+        wall.setHeight(-1.5);
+        System.out.println("width= " + wall.getWidth());
+        System.out.println("height= " + wall.getHeight());
+        System.out.println("area= " + wall.getArea());
 
     }
 }
