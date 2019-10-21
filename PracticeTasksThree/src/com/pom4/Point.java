@@ -43,4 +43,51 @@ NOTE: Do not add a main method to the solution code.
 */
 
 public class Point {
+
+    private int x;
+    private int y;
+
+    public Point() {
+
+    }
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public double distance() {
+        return 0;
+
+    }
+
+    public double distance(int x, int y) {
+        double distance = Math.sqrt(((this.x - x) * (this.x - x)) + ((this.y - y) * (this.y - y)));
+        return distance;
+    }
+
+    public double distance(Point point) {
+        int x = point.getX();
+        int y = point.getY();
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        return point.distance(x, y);
+
+    }
 }
