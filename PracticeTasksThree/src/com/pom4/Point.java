@@ -73,7 +73,9 @@ public class Point {
     }
 
     public double distance() {
-        return 0;
+        int x = 0;
+        int y = 0;
+        return distance(x,y);
 
     }
 
@@ -85,9 +87,7 @@ public class Point {
     public double distance(Point point) {
         int x = point.getX();
         int y = point.getY();
-        System.out.println("x = " + x);
-        System.out.println("y = " + y);
-        return point.distance(x, y);
+        return distance(x, y);
 
     }
 }
